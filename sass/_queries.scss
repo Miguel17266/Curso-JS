@@ -1,0 +1,145 @@
+/*====================*/
+/*Responsive - 850px*/
+/*==================*/
+@media (max-width: 850px) {
+    /*Inicio*/
+
+    #main {
+        display: inline;
+        align-items: center;
+
+        .presentacion,
+        h1,
+        h2,
+        p,
+        #botones,
+        .img_presentacion {
+            margin-top: 20px;
+            width: 80%;
+        }
+
+        .presentacion {
+            padding-left: 20px;
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+
+        .botones {
+            display: flex;
+            width: 50%;
+            margin-left: 70px;
+        }
+    }
+
+    /*Experiencia*/
+    #experiencia {
+        .moovmedia .unab {
+            display: inline;
+            justify-content: center;
+            text-align: center;
+            padding-top: 100px;
+            padding-left: 100px;
+        }
+
+        .txt_moovmedia,
+        .txt_unab {
+            max-width: 100%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+    #Clientes {
+        h2 {
+            margin-bottom: 50px;
+        }
+
+        .logos {
+            display: inline;
+            max-width: 100%;
+            width: 100%;
+        }
+
+        .clientes_logos1,
+        .clientes_logos2 {
+            max-width: 100%;
+            width: auto;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+
+}
+
+/*====================*/
+/*Responsive - 550px*/
+/*==================*/
+/*Inicio*/
+@media (max-width: 550px) {
+
+    .presentacion,
+    h1,
+    h2,
+    p,
+    #botones,
+    .img_presentacion {
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    #main {
+        display: inline;
+        width: 90%;
+        height: 100%;
+        margin: 10px;
+    }
+
+    .presentacion {
+        padding-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .botones {
+        display: block;
+        width: 50%;
+        margin-left: 700px;
+
+    }
+
+    #experiencia {
+        .logos {
+            display: inline;
+        }
+
+        .clientes_logos1,
+        .clientes_logos2 {
+            display: inline;
+            max-width: 100%;
+        }
+    }
+
+    #contacto{
+        .form_input {
+            resize: none;
+            border: solid;
+            width: 450px;
+            height: 30px;
+            font-size: 2000px;
+        }
+    }
+    
+
+    .form_boton {
+        width: 10000px;
+        height: 40px;
+        color: white;
+        background-color: #273a97;
+        border-radius: 10px;
+        margin: 50px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

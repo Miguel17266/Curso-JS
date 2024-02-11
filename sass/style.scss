@@ -1,0 +1,19 @@
+@import "reset";
+@import "header";
+@import "footer";
+@import "index";
+@import "queries";
+/*Skills*/
+@import "../sass/Skills/estudios";
+@import "../sass/Skills/skills";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*Servicios*/
+@import "../sass/Servicios/servicios";
+
+/*Experiencia*/
+@import "../sass/Experiencia/experiencia";
+@import "../sass/Experiencia/clientes";
+
+/*Experiencia*/
+@import "../sass/Contacto/contacto";

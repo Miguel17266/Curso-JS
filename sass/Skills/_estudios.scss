@@ -1,0 +1,48 @@
+/*===============*/
+/*Estudios*/
+/*===============*/
+
+#skills {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    h1 {
+        margin-top: 10px;
+        box-sizing: content-box;
+        width: 100%;
+        text-align: center;
+    }
+    #estudios{
+        max-width: 100%;
+    align-items: center;
+    .udp {
+        display: flex;
+        margin-top: 10px;
+        box-sizing: content-box;
+        width: 100%;
+        text-align: center;
+        margin-left: 100px;
+    }
+    .adity {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        margin-left: 100px;
+        ul {
+            display: flex;
+            text-align: left;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+    }
+    .coderhouse {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        margin-left: 100px;
+    }
+    }
+}
+

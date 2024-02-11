@@ -1,0 +1,40 @@
+/*===============*/
+/*Experiencia*/
+/*===============*/
+
+#experiencia {
+    display: block;
+    align-items: center;
+    h1 {
+        margin-top: 100px;
+        box-sizing: content-box;
+        width: 100%;
+        text-align: center;
+    }
+    h2 {
+        margin-top: 100px;
+        box-sizing: content-box;
+        width: 100%;
+        text-align: center;
+    }
+    .moovmedia {
+        display: flex;
+        padding-top: 50px;
+        padding-left: 100px;
+        gap: 50px;
+        align-items: center;
+    }
+    .unab {
+        display: flex;
+        padding-top: 100px;
+        padding-left: 100px;
+        gap: 50px;
+        align-items: center;
+    }
+}
+
+
+
+
+
+

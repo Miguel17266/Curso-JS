@@ -1,0 +1,55 @@
+/*===============*/
+/*Contacto*/
+/*===============*/
+
+#contacto {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    h1 {
+        text-align: center;
+    }
+    .form_input {
+        resize: none;
+        border: solid;
+        width: 500px;
+        height: 30px;
+        font-size: 20px;
+    }
+    .form_mesaje {
+        resize: none;
+        font-size: 20px;
+        height: 200px;
+    }
+    .form_data {
+        margin: 20px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        resize: none;
+    }
+    .form_boton {
+        width: 120px;
+        height: 40px;
+        color: white;
+        background-color: #273a97;
+        border-radius: 10px;
+        margin: 50px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+

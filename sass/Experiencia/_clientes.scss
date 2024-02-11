@@ -1,0 +1,14 @@
+/*===============*/
+/*Clientes*/
+/*===============*/
+.logos {
+    max-width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    .clientes_logos1 , .clientes_logos2 {
+        display: flex;
+        margin: 50px;
+        gap: 50px;
+    }
+}
+

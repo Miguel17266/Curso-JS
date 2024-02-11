@@ -1,0 +1,66 @@
+/*===============*/
+/*Presentación*/
+/*===============*/
+
+#main {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    margin: 10px;
+    .presentacion {
+        padding-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        .presentacion,
+        h1,
+        h2,
+        p,
+        #botones,
+        .img_presentacion {
+            margin-top: 20px;
+            width: 80%;
+        }
+
+        h1,
+        h2 {
+            color: rgb(38, 59, 152);
+        }
+    }
+    .img_presentacion {
+        width: 100%;
+    }
+    .botones {
+        display: flex;
+        width: 50%;
+        margin-left: 70px;
+        gap: 30px;
+
+        .botones a {
+            color: white;
+            font-weight: 600px;
+        }
+
+        .boton_skills {
+            width: 120px;
+            height: 40px;
+            background-color: #273a97;
+            border-radius: 10px;
+            margin: 50px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .boton_contacto {
+            width: 120px;
+            height: 40px;
+            background-color: #273a97;
+            border-radius: 10px;
+            margin: 50px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
